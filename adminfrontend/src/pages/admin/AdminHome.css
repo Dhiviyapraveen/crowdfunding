@@ -1,0 +1,82 @@
+.admin-home {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+  color: white;
+  width: 137%;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #111;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar h2 {
+  color: #ff5e5e;
+  margin-bottom: 2rem;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.sidebar nav a:hover {
+  color: #ff5e5e;
+}
+
+.admin-main {
+  flex-grow: 1;
+  background-image: url('/hb.jpg'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 81%;
+  padding: 4rem;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 2rem;
+  padding-left: 25%;
+}
+
+.action-btn {
+  background-color: #ff5e5e;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.action-btn:hover {
+  background-color: #ff3e3e;
+}

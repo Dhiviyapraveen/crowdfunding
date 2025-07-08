@@ -1,0 +1,50 @@
+.film-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fffdf6;
+  border: 1px solid #ffebb3;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  font-family: Arial, sans-serif;
+}
+
+.film-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.film-form input,
+.film-form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.film-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.film-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.film-form button:hover {
+  background-color: #cc3700;
+}
